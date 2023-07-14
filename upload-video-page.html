@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Video Upload</title>
+  </head>
+  <body>
+    <nav>
+      <a href="home.html">HOME</a> |
+      <a href="collection1.html">Collection 1</a> |
+      <a href="collection2.html">Collection 2</a> |
+      <a href="collection3.html">Collection 3</a> |
+      <a href="new_video.html">New Video</a>
+    </nav>
+    <h1>Upload a Video</h1>
+    <form>
+      <table>
+        <tr>
+          <td><label for="title">Video Title:</label></td>
+          <td><input type="text" id="title" name="title" /></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <!-- Blank row for spacing -->
+        <tr>
+          <td><label for="desc">Description:</label></td>
+          <td><textarea id="desc" name="desc"></textarea></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <!-- Blank row for spacing -->
+        <tr>
+          <td><label for="video">Upload Video:</label></td>
+          <td><input type="file" id="video" name="video" /></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <!-- Blank row for spacing -->
+        <tr>
+          <td><label for="public">Public:</label></td>
+          <td>
+            <input type="radio" id="public" name="visibility" value="public" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="private">Private:</label></td>
+          <td>
+            <input
+              type="radio"
+              id="private"
+              name="visibility"
+              value="private"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <!-- Blank row for spacing -->
+        <tr>
+          <td colspan="2" style="text-align: center">
+            <input type="submit" value="Submit" />
+          </td>
+        </tr>
+      </table>
+    </form>
+
+    <!-- Footer -->
+    <hr />
+    <table width="100%" border="1" style="position: absolute; bottom: 0">
+      <tr>
+        <td style="text-align: center">
+          <footer>
+            <h2>FOOTER</h2>
+            &copy; Copyright
+          </footer>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
