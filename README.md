@@ -39,6 +39,8 @@ This is a Strictly a HTML-only website featuring video collections for Games tha
 - Videos on the Home and Collection pages should not be allowed to go full screen.
 - Each YouTube video will have a clickable title beneath it that will navigate the user to its "video details page".
 
+## Screenshot
+
 ## Upload Form Features
 
 - The form will contain radio buttons to toggle the visibility of the uploaded video.
